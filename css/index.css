@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+body{
+    box-sizing: border-box;
+}
+
+footer{
+    height:80px;
+    background: #000;
+}
+#top-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.navbar-nav{
+    padding:35px;
+    display: flex;
+    margin-top: 15px;
+    justify-content:center;
+    list-style-type: none;
+}
+.navigation a {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-decoration:none;
+    border:1px solid;
+}
+
+#home{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-image: url(../img/peopleatwork.png);
+    height:100%;
+    padding:260px;
+    background-size: cover;
+    background-position: 50%;
+}
+.text-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight:900;
+    font-family:sans-serif;
+    font-size: 58px;
+    letter-spacing: 9px;
+}
+.text-content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-shadow:1px 1px 5px rgba(0,0,0, .5);
+    font-size:36px;
+    letter-spacing: 5px;
+}
+.figure-img-text{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
+.strong-text{
+    font-family:sans-serif;
+    font-size:31px;
+    font-weight:600;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+.span-content-text{
+    margin-top: 100px;
+    font-family:sans-serif;
+    font-size:22px;
+}
